@@ -61,7 +61,8 @@ cf := interchaintest.NewBuiltinChainFactory(zaptest.NewLogger(t), []*interchaint
         GasPrices: "0.00gos",
         GasAdjustment: 1.3,
         TrustingPeriod: "508h",
-        NoHostMount: false},
+        NoHostMount: false,
+        NoCrisisModule: false},
     },
     })
 ```

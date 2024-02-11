@@ -36,6 +36,8 @@ type ChainConfig struct {
 	TrustingPeriod string `yaml:"trusting-period"`
 	// Do not use docker host mount.
 	NoHostMount bool `yaml:"no-host-mount"`
+	// Do not use crisis module
+	NoCrisisModule bool `yaml:"no-crisis-module"`
 	// When true, will skip validator gentx flow
 	SkipGenTx bool
 	// When provided, will run before performing gentx and genesis file creation steps for validators.

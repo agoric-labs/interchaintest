@@ -62,7 +62,8 @@ func NewCosmosHeighlinerChainConfig(name string,
 	gasPrices string,
 	gasAdjustment float64,
 	trustingPeriod string,
-	noHostMount bool) ibc.ChainConfig {
+	noHostMount bool,
+	noCrisisModule bool) ibc.ChainConfig {
 	return ibc.ChainConfig{
 		Type:           "cosmos",
 		Name:           name,
@@ -72,6 +73,7 @@ func NewCosmosHeighlinerChainConfig(name string,
 		GasAdjustment:  gasAdjustment,
 		TrustingPeriod: trustingPeriod,
 		NoHostMount:    noHostMount,
+		NoCrisisModule: noCrisisModule,
 		Images: []ibc.DockerImage{
 			{
 				Repository: fmt.Sprintf("ghcr.io/strangelove-ventures/heighliner/%s", name),

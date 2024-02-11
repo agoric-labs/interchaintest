@@ -108,6 +108,7 @@ func CreateChainConfigs(cfg types.Chain) (ibc.ChainConfig, *interchaintest.Chain
 		GasAdjustment:          cfg.GasAdjustment,
 		TrustingPeriod:         cfg.TrustingPeriod,
 		NoHostMount:            false,
+		NoCrisisModule:         false,
 		ModifyGenesis:          cosmos.ModifyGenesis(cfg.Genesis.Modify),
 		ConfigFileOverrides:    FasterBlockTimesBuilder(cfg.BlockTime),
 		EncodingConfig:         nil,
