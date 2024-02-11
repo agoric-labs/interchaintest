@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	interchaintest "github.com/strangelove-ventures/interchaintest/v6"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
+	interchaintest "github.com/agoric-labs/interchaintest/v6"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 )

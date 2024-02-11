@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/agoric-labs/interchaintest/v6/ibc"
 	"github.com/icza/dyno"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
 )
 
 type GenesisKV struct {

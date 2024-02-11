@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/internal/dockerutil"
+	"github.com/agoric-labs/interchaintest/v6/internal/version"
+	"github.com/agoric-labs/interchaintest/v6/testreporter"
 	"github.com/docker/docker/client"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	"github.com/strangelove-ventures/interchaintest/v6/internal/dockerutil"
-	"github.com/strangelove-ventures/interchaintest/v6/internal/version"
-	"github.com/strangelove-ventures/interchaintest/v6/testreporter"
 )
 
 const (

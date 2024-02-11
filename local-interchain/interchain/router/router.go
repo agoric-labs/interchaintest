@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/agoric-labs/interchaintest/v6"
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	ictypes "github.com/agoric-labs/localinterchain/interchain/types"
+	"github.com/agoric-labs/localinterchain/interchain/util"
 	"github.com/gorilla/mux"
-	"github.com/strangelove-ventures/interchaintest/v6"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	ictypes "github.com/strangelove-ventures/localinterchain/interchain/types"
-	"github.com/strangelove-ventures/localinterchain/interchain/util"
 
-	"github.com/strangelove-ventures/localinterchain/interchain/handlers"
+	"github.com/agoric-labs/localinterchain/interchain/handlers"
 )
 
 type Route struct {

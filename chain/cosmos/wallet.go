@@ -1,8 +1,8 @@
 package cosmos
 
 import (
+	"github.com/agoric-labs/interchaintest/v6/ibc"
 	"github.com/cosmos/cosmos-sdk/types"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
 )
 
 var _ ibc.Wallet = &CosmosWallet{}

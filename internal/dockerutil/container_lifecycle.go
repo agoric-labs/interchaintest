@@ -6,13 +6,13 @@ import (
 	"net"
 	"strings"
 
+	"github.com/agoric-labs/interchaintest/v6/ibc"
 	dockertypes "github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"
 	dockerclient "github.com/docker/docker/client"
 	"github.com/docker/docker/errdefs"
 	"github.com/docker/go-connections/nat"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
 	"go.uber.org/zap"
 )
 

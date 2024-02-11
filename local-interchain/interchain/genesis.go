@@ -5,10 +5,10 @@ import (
 	"log"
 	"strings"
 
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	types "github.com/agoric-labs/localinterchain/interchain/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	types "github.com/strangelove-ventures/localinterchain/interchain/types"
 )
 
 func AddGenesisKeysToKeyring(ctx context.Context, config *types.Config, chains []ibc.Chain) {

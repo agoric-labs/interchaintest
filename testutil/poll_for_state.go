@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/agoric-labs/interchaintest/v6/ibc"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
 )
 
 var ErrNotFound = errors.New("not found")

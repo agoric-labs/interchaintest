@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
 )
 
 type Config struct {

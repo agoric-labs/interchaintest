@@ -5,10 +5,10 @@ import (
 	"encoding/hex"
 	"testing"
 
+	"github.com/agoric-labs/interchaintest/v6/chain/polkadot"
 	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
 	p2pCrypto "github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/polkadot"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,10 +7,10 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
+	"github.com/agoric-labs/interchaintest/v6"
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/strangelove-ventures/interchaintest/v6"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 )

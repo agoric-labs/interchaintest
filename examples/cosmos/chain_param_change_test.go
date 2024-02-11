@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	sdkmath "cosmossdk.io/math"
+	"github.com/agoric-labs/interchaintest/v6"
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
 	paramsutils "github.com/cosmos/cosmos-sdk/x/params/client/utils"
-	"github.com/strangelove-ventures/interchaintest/v6"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 )

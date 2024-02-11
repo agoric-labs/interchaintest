@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/agoric-labs/interchaintest/v6/internal/blockdb"
+	"github.com/agoric-labs/interchaintest/v6/internal/blockdb/tui/presenter"
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
-	"github.com/strangelove-ventures/interchaintest/v6/internal/blockdb"
-	"github.com/strangelove-ventures/interchaintest/v6/internal/blockdb/tui/presenter"
 )
 
 func headerView(m *Model) *tview.Flex {

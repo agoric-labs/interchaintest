@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/relayer"
 	"github.com/docker/docker/client"
 	"github.com/pelletier/go-toml"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	"github.com/strangelove-ventures/interchaintest/v6/relayer"
 	"go.uber.org/zap"
 )
 

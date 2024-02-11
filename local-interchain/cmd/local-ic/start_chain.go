@@ -4,8 +4,8 @@ import (
 	"path"
 	"path/filepath"
 
+	"github.com/agoric-labs/localinterchain/interchain"
 	"github.com/spf13/cobra"
-	"github.com/strangelove-ventures/localinterchain/interchain"
 )
 
 var startCmd = &cobra.Command{

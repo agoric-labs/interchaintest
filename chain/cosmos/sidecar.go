@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/internal/dockerutil"
 	dockerclient "github.com/docker/docker/client"
 	"github.com/docker/go-connections/nat"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	"github.com/strangelove-ventures/interchaintest/v6/internal/dockerutil"
 	"go.uber.org/zap"
 )
 

@@ -1,23 +1,23 @@
-module github.com/strangelove-ventures/localinterchain
+module github.com/agoric-labs/localinterchain
 
 go 1.19
 
 replace (
 	github.com/ChainSafe/go-schnorrkel => github.com/ChainSafe/go-schnorrkel v0.0.0-20200405005733-88cbf1b4c40d
 	github.com/ChainSafe/go-schnorrkel/1 => github.com/ChainSafe/go-schnorrkel v1.0.0
+	github.com/agoric-labs/interchaintest/v6 => ../
 	github.com/btcsuite/btcd => github.com/btcsuite/btcd v0.22.2 //indirect
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	github.com/strangelove-ventures/interchaintest/v6 => ../
 	github.com/tendermint/tendermint => github.com/cometbft/cometbft v0.34.27
 	github.com/vedhavyas/go-subkey => github.com/strangelove-ventures/go-subkey v1.0.7
 )
 
 require (
+	github.com/agoric-labs/interchaintest/v6 v6.0.0-20230817200521-9fdddb2e7cb3
 	github.com/cosmos/cosmos-sdk v0.46.16
 	github.com/go-playground/validator v9.31.0+incompatible
 	github.com/gorilla/mux v1.8.0
 	github.com/spf13/cobra v1.7.0
-	github.com/strangelove-ventures/interchaintest/v6 v6.0.0-20230817200521-9fdddb2e7cb3
 	github.com/tyler-smith/go-bip39 v1.1.0
 	go.uber.org/zap v1.24.0
 )

@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	sdkmath "cosmossdk.io/math"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/testreporter"
 	"github.com/docker/docker/client"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	"github.com/strangelove-ventures/interchaintest/v6/testreporter"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 )

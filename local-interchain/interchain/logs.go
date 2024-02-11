@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	types "github.com/strangelove-ventures/localinterchain/interchain/types"
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	types "github.com/agoric-labs/localinterchain/interchain/types"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

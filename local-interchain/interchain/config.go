@@ -8,13 +8,13 @@ import (
 	"path/filepath"
 	"time"
 
-	types "github.com/strangelove-ventures/localinterchain/interchain/types"
-	"github.com/strangelove-ventures/localinterchain/interchain/util"
+	types "github.com/agoric-labs/localinterchain/interchain/types"
+	"github.com/agoric-labs/localinterchain/interchain/util"
 
-	"github.com/strangelove-ventures/interchaintest/v6"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	"github.com/strangelove-ventures/interchaintest/v6/testutil"
+	"github.com/agoric-labs/interchaintest/v6"
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/testutil"
 )
 
 func loadConfig(config *types.Config, filepath string) (*types.Config, error) {

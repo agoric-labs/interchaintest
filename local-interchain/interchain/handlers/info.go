@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	types "github.com/strangelove-ventures/localinterchain/interchain/types"
-	util "github.com/strangelove-ventures/localinterchain/interchain/util"
+	types "github.com/agoric-labs/localinterchain/interchain/types"
+	util "github.com/agoric-labs/localinterchain/interchain/util"
 )
 
 type info struct {

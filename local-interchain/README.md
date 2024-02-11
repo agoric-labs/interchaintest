@@ -6,7 +6,7 @@ A simple way to config and run IBC local chain testing environments with any lan
 
 **Install on Mac / Linux**
 ```bash
-git clone https://github.com/strangelove-ventures/interchaintest.git 
+git clone https://github.com/agoric-labs/interchaintest.git 
 
 cd interchaintest/local-interchain
 

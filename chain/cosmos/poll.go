@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/testutil"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	"github.com/strangelove-ventures/interchaintest/v6/testutil"
 )
 
 // PollForProposalStatus attempts to find a proposal with matching ID and status.

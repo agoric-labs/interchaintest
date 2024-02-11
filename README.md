@@ -3,9 +3,9 @@
 
 Formerly known as `ibctest`.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/strangelove-ventures/interchaintest@main.svg)](https://pkg.go.dev/github.com/strangelove-ventures/interchaintest@main)
-[![License: Apache-2.0](https://img.shields.io/github/license/strangelove-ventures/interchaintest.svg?style=flat-square)](https://github.com/strangelove-ventures/interchaintest/blob/main/create-test-readme/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/strangelove-ventures/interchaintest)](https://goreportcard.com/report/github.com/strangelove-ventures/interchaintest)
+[![Go Reference](https://pkg.go.dev/badge/github.com/agoric-labs/interchaintest@main.svg)](https://pkg.go.dev/github.com/agoric-labs/interchaintest@main)
+[![License: Apache-2.0](https://img.shields.io/github/license/strangelove-ventures/interchaintest.svg?style=flat-square)](https://github.com/agoric-labs/interchaintest/blob/main/create-test-readme/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/agoric-labs/interchaintest)](https://goreportcard.com/report/github.com/agoric-labs/interchaintest)
 
 
 
@@ -36,13 +36,13 @@ If there is a feature you would like backported to an older branch, make an issu
 
 |                                **Branch Name**                               | **IBC-Go** | **Cosmos-sdk** |    **Maintained**   |
 |:----------------------------------------------------------------------------:|:----------:|:--------------:|:-------------------:|
-|     [main](https://github.com/strangelove-ventures/interchaintest)           |     v7     |      v0.47     |         ✅          |
-|     [v6](https://github.com/strangelove-ventures/interchaintest/tree/v6)     |     v6     |      v0.46     |         ✅          |
-|     [v5](https://github.com/strangelove-ventures/interchaintest/tree/v5)     |     v5     |      v0.46     |❌<br>(Aug 11 2023)  |
-|     [v4](https://github.com/strangelove-ventures/interchaintest/tree/v4)     |     v4     |      v0.45     |❌<br>(Aug 11 2023)  |
-| [v4-ics](https://github.com/strangelove-ventures/interchaintest/tree/v4-ics) |     v4     |   v0.45.x-ics  |❌<br>(Aug 11 2023)  |
-|     [v3](https://github.com/strangelove-ventures/interchaintest/tree/v3)     |     v3     |      v0.45     |❌<br>(June 25 2023) |
-| [v3-ics](https://github.com/strangelove-ventures/interchaintest/tree/v3-ics) |     v3     |  v0.45.11-ics  |❌<br>(April 24 2023)|
+|     [main](https://github.com/agoric-labs/interchaintest)           |     v7     |      v0.47     |         ✅          |
+|     [v6](https://github.com/agoric-labs/interchaintest/tree/v6)     |     v6     |      v0.46     |         ✅          |
+|     [v5](https://github.com/agoric-labs/interchaintest/tree/v5)     |     v5     |      v0.46     |❌<br>(Aug 11 2023)  |
+|     [v4](https://github.com/agoric-labs/interchaintest/tree/v4)     |     v4     |      v0.45     |❌<br>(Aug 11 2023)  |
+| [v4-ics](https://github.com/agoric-labs/interchaintest/tree/v4-ics) |     v4     |   v0.45.x-ics  |❌<br>(Aug 11 2023)  |
+|     [v3](https://github.com/agoric-labs/interchaintest/tree/v3)     |     v3     |      v0.45     |❌<br>(June 25 2023) |
+| [v3-ics](https://github.com/agoric-labs/interchaintest/tree/v3-ics) |     v3     |  v0.45.11-ics  |❌<br>(April 24 2023)|
 
 ## Table Of Contents
 - [Building Binary](#building-binary)
@@ -62,7 +62,7 @@ While it is not necessary to build the binary, sometimes it can be more convenie
 
 Building binary:
 ```shell
-git clone https://github.com/strangelove-ventures/interchaintest.git
+git clone https://github.com/agoric-labs/interchaintest.git
 cd interchaintest
 make interchaintest
 ```
@@ -82,5 +82,5 @@ Please read the [logging style guide](./docs/logging.md).
 
 Significant bugs that were more easily fixed with `interchaintest`:
 
-- [Juno network halt reproduction](https://github.com/strangelove-ventures/interchaintest/pull/7)
-- [Juno network halt fix confirmation](https://github.com/strangelove-ventures/interchaintest/pull/8)
+- [Juno network halt reproduction](https://github.com/agoric-labs/interchaintest/pull/7)
+- [Juno network halt fix confirmation](https://github.com/agoric-labs/interchaintest/pull/8)

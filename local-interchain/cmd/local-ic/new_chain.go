@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
+	ictypes "github.com/agoric-labs/localinterchain/interchain/types"
 	"github.com/spf13/cobra"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
-	ictypes "github.com/strangelove-ventures/localinterchain/interchain/types"
 
 	"github.com/tyler-smith/go-bip39"
 )

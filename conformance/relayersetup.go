@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
+	interchaintest "github.com/agoric-labs/interchaintest/v6"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/testreporter"
+	"github.com/agoric-labs/interchaintest/v6/testutil"
 	conntypes "github.com/cosmos/ibc-go/v6/modules/core/03-connection/types"
-	interchaintest "github.com/strangelove-ventures/interchaintest/v6"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	"github.com/strangelove-ventures/interchaintest/v6/testreporter"
-	"github.com/strangelove-ventures/interchaintest/v6/testutil"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/sync/errgroup"
 )

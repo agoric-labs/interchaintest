@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/strangelove-ventures/interchaintest/v6"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	types "github.com/strangelove-ventures/localinterchain/interchain/types"
+	"github.com/agoric-labs/interchaintest/v6"
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	types "github.com/agoric-labs/localinterchain/interchain/types"
 )
 
 func VerifyIBCPaths(ibcpaths map[string][]int) error {

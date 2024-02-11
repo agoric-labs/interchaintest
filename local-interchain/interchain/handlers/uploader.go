@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
-	"github.com/strangelove-ventures/localinterchain/interchain/util"
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
+	"github.com/agoric-labs/localinterchain/interchain/util"
 )
 
 type upload struct {

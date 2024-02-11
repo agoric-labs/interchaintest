@@ -1,4 +1,4 @@
-module github.com/strangelove-ventures/interchaintest/v6
+module github.com/agoric-labs/interchaintest/v6
 
 go 1.19
 

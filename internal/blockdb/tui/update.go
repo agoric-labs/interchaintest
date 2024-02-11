@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/agoric-labs/interchaintest/v6/internal/blockdb/tui/presenter"
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
-	"github.com/strangelove-ventures/interchaintest/v6/internal/blockdb/tui/presenter"
 )
 
 // Update should be the argument for *(tview.Application).SetInputCapture.

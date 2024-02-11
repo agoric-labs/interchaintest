@@ -1,8 +1,8 @@
 package types
 
 import (
+	"github.com/agoric-labs/interchaintest/v6/chain/cosmos"
 	"github.com/go-playground/validator"
-	"github.com/strangelove-ventures/interchaintest/v6/chain/cosmos"
 )
 
 type Chain struct {

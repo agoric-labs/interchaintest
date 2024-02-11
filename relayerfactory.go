@@ -3,11 +3,11 @@ package interchaintest
 import (
 	"fmt"
 
+	"github.com/agoric-labs/interchaintest/v6/ibc"
+	"github.com/agoric-labs/interchaintest/v6/relayer"
+	"github.com/agoric-labs/interchaintest/v6/relayer/hermes"
+	"github.com/agoric-labs/interchaintest/v6/relayer/rly"
 	"github.com/docker/docker/client"
-	"github.com/strangelove-ventures/interchaintest/v6/ibc"
-	"github.com/strangelove-ventures/interchaintest/v6/relayer"
-	"github.com/strangelove-ventures/interchaintest/v6/relayer/hermes"
-	"github.com/strangelove-ventures/interchaintest/v6/relayer/rly"
 	"go.uber.org/zap"
 )
 

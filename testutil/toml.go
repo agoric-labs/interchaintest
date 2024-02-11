@@ -7,8 +7,8 @@ import (
 	"reflect"
 
 	"github.com/BurntSushi/toml"
+	"github.com/agoric-labs/interchaintest/v6/internal/dockerutil"
 	"github.com/docker/docker/client"
-	"github.com/strangelove-ventures/interchaintest/v6/internal/dockerutil"
 	"go.uber.org/zap"
 )
 
